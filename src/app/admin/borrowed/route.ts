@@ -1,0 +1,1 @@
+Prisma: prisma.book.findMany({ where: { isAvailable: 0 } })
