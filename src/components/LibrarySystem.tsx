@@ -5,7 +5,7 @@ import HistoryView from './HistoryView';
 
 export default function LibrarySystem({ user, onLogout }: { user: any, onLogout: () => void }) {
   const [books, setBooks] = useState<any[]>([]);
-  const [activeTab, setActiveTab] = useState<'home' | 'return' | 'history'>('home');
+  const [activeTab, setActiveTab] = useState<any>('home');
   const [newBookTitle, setNewBookTitle] = useState("");
 
   const fetchBooks = async () => {
