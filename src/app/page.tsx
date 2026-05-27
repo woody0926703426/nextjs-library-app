@@ -40,7 +40,7 @@ export default function PortalPage() {
         </div>
       </div>
       
-      <p className="mt-12 text-slate-400 text-xs">©Library Management System Project by  นายชัยวุฒิ จามะรีย์  ปวส.2/19 เลขที่3</p>
+      <p className="mt-12 text-slate-400 text-xs">©Library Management System Project by  Mr.Chaiwut Chamaree</p>
     </main>
   );
 }

@@ -67,9 +67,9 @@ export default function LoginPage({ selectedRole, onBack }: { selectedRole: stri
             className={`w-full p-4 rounded-2xl font-bold text-white shadow-lg transition-all active:scale-95 ${
               is_admin ? 'bg-indigo-600 hover:bg-indigo-700 shadow-indigo-100' : 'bg-blue-600 hover:bg-blue-700 shadow-blue-100'
             }`}
-          >
+          > 
             เข้าสู่ระบบ
-          </button>
+          </button>// User: user01 / 1234, Admin: admin / 1234
         </div>
       </div>
     </main>
